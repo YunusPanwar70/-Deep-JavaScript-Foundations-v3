@@ -13,9 +13,9 @@ console.log(num); // 42
 
 ```
 
-_Whenever We increment a num using postfixed position it will be return the value first, after that he will be increment the num_.
+_Whenever We increment a num using __postfixed position__ it will be return the value first, after that he will be increment the num_.
 
-_Whenever we will use pre increment position for increment a num. it will increment num first, after that he will be return value_.
+_Whenever we will use __pre increment__ position for increment a num. it will increment num first, after that he will be return value_.
 
 ---
 here is a string which is representing a num;
