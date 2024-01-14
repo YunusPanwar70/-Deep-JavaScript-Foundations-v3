@@ -59,8 +59,7 @@ dunder proto === **proto** Every object in js has the property. It points back t
 
 The **proto** property of Object. prototype is an accessor property(a getter function and a setter function)that express the internal[[prototype]](either an object or null) of the object through which it is accessed.
 
-
-__Example__
+**Example**
 
 ```javascript
 function workshop(teacher) {
@@ -78,12 +77,11 @@ Object.getPrototypeOf(deepjs) === workshop.prototype;
 deepjs.ask("what's up")
 ```
 
-
 ## Shadowing Prototype
 
 When creating a property on an object that has the same property name on its prototype chain it will shadow the proeprty on its prototype. This means that the property defined on the object will always be found first instead of looking through the prototype for the  property
 
-__Example__
+**Example**
 
 ```javascript
 function workshop(teacher){
@@ -101,4 +99,5 @@ deepJs.ask("Is this fake polymorphism?");
 ```
 
 ## For More Information Click Below :-
+
 [Prototypes](../Js/Prototypes/)

@@ -17,7 +17,6 @@ There are two categories of data types -
 * String
 * Symbol
 * Undefined
-* Infinity
 
 ## Non Primitive Data Types :- Mutable
 

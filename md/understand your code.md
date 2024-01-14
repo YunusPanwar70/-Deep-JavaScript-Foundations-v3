@@ -1,4 +1,5 @@
 # Understand your code
+
 * We will learn to understand our code.
 
 * ___As you can see we created a function & gave their a parameter & in the line no.(2) we tranformed a string to number.___
@@ -20,4 +21,5 @@ console.log(x) // 6
 ```
 
 ## For More Information Click Below:-
+
 [Understand your code](../Js/introduction/)

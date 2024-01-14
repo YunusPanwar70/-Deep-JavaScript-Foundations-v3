@@ -164,8 +164,8 @@ Here, person1 and person2 are objects of Person class.
 
 classes are of two components they are
 
-1.  Class declarations
-1.  Class expressions
+1. Class declarations
+1. Class expressions
 
 ### Class declarations
 
@@ -211,4 +211,5 @@ console.log(Rectangle.name);
 ```
 
 ## For More Information Click Below:-
+
 [objects refernces](../Js/Object/)

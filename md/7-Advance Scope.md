@@ -1,6 +1,7 @@
 ># Advance scope
 
 ## lexical scope
+
 Lexical scoping to resolve the variable names when a function is created inside another function. It determines the functions parent scope by looking at where the function was created instead of where it was invoked.
 
 ```javascript
@@ -19,6 +20,7 @@ func();
 console.log("only a is a accessible (global):", a);
 
 ```
+
 [More About Lexical Scope.](../Js/Scope/lexical%20scope.js)
 
 ## IIFE (Immediate Invoked Function Expression )
