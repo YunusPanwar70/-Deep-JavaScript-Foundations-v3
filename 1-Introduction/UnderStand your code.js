@@ -5,5 +5,5 @@ function plusPlus(orig_x) {
 }
 
 let x = '5';
-plusPlus(x)
-console.log(plusPlus(x));
+plusPlus(x) //5
+console.log(plusPlus(x)); //6

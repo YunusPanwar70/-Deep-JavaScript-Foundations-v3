@@ -12,3 +12,15 @@
 // };
 // func();
 // console.log("only a is a accessible (global):", a);
+
+function outer(x) {
+    function inner(y) {
+        return x + y;
+    }
+    return inner;
+}
+
+let closureEx = outer(10);
+let result = closureEx(5);
+console.log(closureEx);
+console.log(result);

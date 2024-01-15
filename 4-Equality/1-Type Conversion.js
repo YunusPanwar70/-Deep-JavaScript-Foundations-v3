@@ -5,4 +5,4 @@ function value(num) {
         console.log('2 is lower than ture');
     }
 };
-value(2)
+value(2);
