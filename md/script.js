@@ -12,15 +12,16 @@
 // };
 // func();
 // console.log("only a is a accessible (global):", a);
-
-function outer(x) {
-    function inner(y) {
-        return x + y;
-    }
-    return inner;
+// Constructor function
+function Person() {
+    this.name = "yaseen";
+    this.age = 23;
 }
 
-let closureEx = outer(10);
-let result = closureEx(5);
-console.log(closureEx);
-console.log(result);
+// Creating objects
+const person1 = new Person();
+const person2 = new Person();
+
+// Logging the values of the objects
+console.log("Person 1:", person1);
+// console.log("Person 2:", person2);
