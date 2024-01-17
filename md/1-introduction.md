@@ -28,6 +28,7 @@ _Whenever we use postfixed position it will be increment to that string number b
 let num2 = '5';
 num2 = num2 + 1; //'51'
 
+num2 += 1; //'51 Short trick
 
 num2++ // 51
 console.log(num2) // 52
