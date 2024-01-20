@@ -13,15 +13,4 @@
 // func();
 // console.log("only a is a accessible (global):", a);
 // Constructor function
-function Person() {
-    this.name = "yaseen";
-    this.age = 23;
-}
-
-// Creating objects
-const person1 = new Person();
-const person2 = new Person();
-
-// Logging the values of the objects
-console.log("Person 1:", person1);
-// console.log("Person 2:", person2);
+// Example of a class in JavaScript
