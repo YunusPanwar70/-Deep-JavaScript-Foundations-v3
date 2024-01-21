@@ -6,9 +6,9 @@ There are two categories of data types -
 
 ## Primitive Data Types :- Immutable
 
-#### We cant change values in these data types
+A Primitive data types dont have any methods or properties
 
- A Primitive data types dont have any methods or properties
+#### We cant change values in these data types
 
 * Bigint
 * Boolean
