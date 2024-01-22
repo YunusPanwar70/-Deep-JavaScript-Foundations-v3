@@ -115,7 +115,7 @@ JavaScript class is similar to the Javascript constructor function, and it is me
 The constructor function is defined as:
 
 ```javascript
-constructor function
+// constructor function
 function Person () {
     this.name = 'John',
     this.age = 23
