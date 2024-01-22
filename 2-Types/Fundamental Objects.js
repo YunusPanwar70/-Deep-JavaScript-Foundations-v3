@@ -1,14 +1,13 @@
-// Built-In Objects
-// We should use new 
-// Array()
-// Date()
-// Error()
-// function()
-// RegExp()
+     // Built-In Objects
+  // We should use new
 // Object()
+// Array()
+// function()
+// Date()
+// RegExp()
+// Error()
 
-
-// Don't use new;
+  // don't use new;
 // String()
 // Number()
 // Boolean()

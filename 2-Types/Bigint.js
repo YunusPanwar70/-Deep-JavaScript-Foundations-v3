@@ -1,10 +1,10 @@
-function value(num) {
-    return BigInt(num)
-}
-console.log(value(2));
+// bigint is used to store big intizer.
 
-// function value1(num1) {
-//     return BigInt(num1);
-// };
+const a = 20;
+console.log(BigInt(a)) // 20n
 
-// console.log(value1(20));
+const b = 20n
+console.log(typeof b) // bigint
+
+const c = BigInt(20);
+console.log(c) // 20n

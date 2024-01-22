@@ -1,0 +1,1 @@
+const functionName = (parameters) => expression;
