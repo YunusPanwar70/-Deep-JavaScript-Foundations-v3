@@ -31,4 +31,4 @@ Lexical scope is tha ability of the inner function to access the outer scope in 
 
 ## For More Information Click Below :-
 
-[Scopes](../Js/Scope/)
+[Scopes](../js/5-Scope/)

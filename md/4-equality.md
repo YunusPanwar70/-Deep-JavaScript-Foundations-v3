@@ -38,4 +38,4 @@ console.log(11 === '11');
 
 ## For More Information Click Below:-
 
-[Equality](../Js/Equality/)
+[Equality](../js/4-Equality/)

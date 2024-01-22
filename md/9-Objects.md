@@ -24,7 +24,7 @@ _for example_;-
 
 ```javascript
 let person = {
-  name: "yaseen",
+  name: "Alen",
   age: 20,
   info: function () {
     console.log(this.name + " is " + this.age + " years old");
@@ -212,4 +212,4 @@ console.log(Rectangle.name);
 
 ## For More Information Click Below:-
 
-[objects refernces](../Js/Object/)
+[objects refernces](../js/9-Object%20Reference/)

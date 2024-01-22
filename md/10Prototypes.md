@@ -3,7 +3,7 @@
 In javascript, every function and object has a property named prototype by default.
 
 **For Example**
-
+****
 ```javacript
 function person(){
   this.name ="Alen",
@@ -100,4 +100,4 @@ deepJs.ask("Is this fake polymorphism?");
 
 ## For More Information Click Below :-
 
-[Prototypes](../Js/Prototypes/)
+[Prototypes](../js/10-Prototype/)

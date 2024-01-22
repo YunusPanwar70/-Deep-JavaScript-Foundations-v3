@@ -28,4 +28,4 @@ A Primitive data types dont have any methods or properties
 
 ## For More Information Click Below :-
 
-[Types](../Js/types/)
+[Types](../js/2-Types/)
