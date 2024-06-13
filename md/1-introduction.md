@@ -3,12 +3,13 @@
 * We will see the introduction of it with some basic codes of js.
 
 ```Javascript
+
 let num = 40;
 
-num++; // it's called postfixed position increament. 40
+num++; // This is called a postfix increment. It returns the current value (40), then increments num.
 console.log(num); // 41
 
-++num; // it's called pre increment 42
+++num; // This is called a prefix increment. It increments num first, then returns the new value.
 console.log(num); // 42
 
 ```
@@ -26,12 +27,10 @@ _Whenever we use postfixed position it will be increment to that string number b
 
 ```Javascript
 let num2 = '5';
-num2 = num2 + 1; //'51'
-
-num2 += 1; //'51 Short trick
-
-num2++ // 51
-console.log(num2) // 52
+num2 = num2 + 1; // '51'
+num2 += 1; // '51' (This is a shorthand trick)
+num2++; // 51 (coerces the string into a number and then increments it)
+console.log(num2); // 52
 
 ```
 

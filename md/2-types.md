@@ -18,9 +18,8 @@ A Primitive data types dont have any methods or properties
 * Symbol
 * Undefined
 
-## Non Primitive Data Types :- Mutable
-
-#### we can change values in these data types
+## Non Primitive Data Types :- Mutable.
+#### We can change values in these data types.
 
 * Array
 * Functions

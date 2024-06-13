@@ -1,14 +1,15 @@
 let num = 40;
 
-num++; //it's called postfixed position increament. 40
-console.log(num); //41
+num++; // Postfix increment: Returns the current value (40) and then increments num
+console.log(num); // Output: 41
 
-++num; //42, pre increment.
-console.log(num);
+++num; // Prefix increment: Increments num first, then returns the new value
+console.log(num); // Output: 42
 
 let num2 = '5';
-// num2 = num2 + 1;
-num2 += +1; //'51'
+num2 = num2 + 1; // Concatenates the string '5' with the number 1 (Old Concept)
+num2 += 1; // Concatenates the string '5' with the number 1
+console.log(num2); // Output: '51'
 
-num2++; //51
-console.log(num2); //52
+num2++; // Postfix increment: Coerces the string '51' into a number and then increments it
+console.log(num2); // Output: 52
