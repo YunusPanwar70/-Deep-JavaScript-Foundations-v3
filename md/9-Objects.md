@@ -1,6 +1,18 @@
 > # Objects
 
+### Core Pillars of JavaScript:
+
+JavaScript ke three core pillars hain:
+
+Objects
+this Keyword
+Prototypes
+
 ## The this keyword
+
+Purpose: this keyword ek object ko refer karta hai jisme function call hota hai.
+
+Context: this ka context change hota hai, jo ki function call ke context par depend karta hai.
 
 In javascript, the this keyword refers to an object.
 
@@ -107,6 +119,10 @@ boundFunction(); // {someKey: 1}
 ```
 
 ## classes
+
+Class Keyword: ES6 me class keyword introduce hua, jo ek syntactic sugar hai. Yeh classes ko create karne me madad karta hai aur traditional object-oriented programming (OOP) jaise dikhta hai.
+
+Underlying System: class keyword ka use bhi prototype system ke upar hota hai. JavaScript internally prototype-based inheritance ko hi use karta hai.
 
 Classes are a template for creating objects. They encapsulate data with code to work on that data. Classes in JS are built on prototypes but also have some syntax and semantics that are not shared with ES5 class-like semantics.
 

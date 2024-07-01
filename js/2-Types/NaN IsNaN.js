@@ -1,5 +1,5 @@
 // NaN => Everyone say that NaN means (not a number) but it's totally wrong. NaN indicates an invalid number.
-    // For Example.
+// For Example.
 
 let myAge = Number("0o46"); // 38
 const myNextAge = Number("39"); // 39

@@ -18,7 +18,6 @@ var func = function () {
 };
 func();
 console.log("only a is a accessible (global):", a);
-
 ```
 
 [More About Lexical Scope.](../Js/Scope/lexical%20scope.js)
@@ -26,6 +25,8 @@ console.log("only a is a accessible (global):", a);
 ## IIFE (Immediate Invoked Function Expression )
 
 An IIFE is a javascript function that runs as soon as it is defined. The name IIFE is promoted by Ben Alman
+
+Yeh techniques humein variable naming collisions se bachane mein madad karti hain aur code ko better organize karti hain.
 
 ```javascript
 (function () {
@@ -57,8 +58,8 @@ _for example:-_
   let p = 110;
   const q = 100;
 }
-console.log(p); // refernce Error p is not defined
-console.log(q); // refernce Error q is not defined
+console.log(p); // Refernce Error p is not defined
+console.log(q); // Refernce Error q is not defined
 
 `scope doesn't restrict  var variable outside the block`;
 
@@ -66,8 +67,8 @@ console.log(q); // refernce Error q is not defined
   var a = 100;
   var b = 200;
 }
-console.log(a); // a =100
-console.log(b); // b =100
+console.log(a); // Output : 100
+console.log(b); // Output : 200
 ```
 
 So, here let and const are blocked scope because . they got reference error when we use outside of the block.
@@ -130,6 +131,10 @@ This is baggage of const . we should follow of mutual values and mutual assignme
 ## Hoisting
 
 Javascript Hoisting refers to the process whereby the interpreter appears to move the decalaration of functions, variables or classes to the top of their scope, prior to execution of the code. Hoisting allows functions to be safely used in code before they are declared.
+
+Jab console.log(course); execute hota hai, yeh TDZ mein hota hai, isliye ReferenceError throw hota hai.
+Yeh TDZ concept const variables ke academic definition ko maintain karta hai jo kehta hai ki const ko kabhi bhi reassign nahi kiya ja sakta.
+
 
 ```javascript
 // hoisting in javascript is a behavior in which a function or a variable can be used before declaration For example

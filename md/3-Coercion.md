@@ -1,5 +1,9 @@
 > # Coercion
 
+Coercion ka matlab hai value ko automatic type conversion karna.
+
+lekin agar galat tareeke se samjha jaaye toh bugs ka reason bhi ban sakta hai.
+
 Coercion is conversion of one data type to another data type.
 
 Coercion is divided into 2 types :-
@@ -45,7 +49,7 @@ const num2 = '20';
 
 const val = Number(num2);
 
-console.log(val);
+console.log(val); // 20
 
 ```
 

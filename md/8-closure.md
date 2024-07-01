@@ -2,6 +2,14 @@
 
 Closures are defined as inner functions that have access to variables and parameters of outer function even after the outer function has returned. The below examples show the practical use of closures :
 
+
+Closure ka practical definition yeh hai ki ek function apne lexical scope ke variables ko yaad rakhta hai aur unhe use kar sakta hai, even after the scope has ended.
+
+Closures wo functions hote hain jo apne lexical scope ko "close" karke rakhte hain, matlab function ke execute hone ke baad bhi woh apne defining scope ke variables ko access kar sakte hain.
+
+Lexical Scope: Variables sirf unke defined scope me hi accessible hote hain.
+Closure: Variables closure ke through persist karte hain aur continue access kiya ja sakta hai.
+
 ```javascript
 function mulFn() {
   var mul = 9;

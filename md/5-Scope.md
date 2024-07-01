@@ -1,33 +1,29 @@
 # Scopes
 
-Scopes in javascript refers to the current context of code, which determines the accessibilty of variables to javascript.
-Javascript has the following kinds of scopes:-
+Scopes in JavaScript refer to the current context of code, which determines the accessibility of variables.
 
-* Global Scope
-* Module Scope
-* Function Scope
-* Block Scope
-* Lexical Scope
+JavaScript has the following kinds of scopes:
 
-## Global Scope :-
+1. Global Scope
+2. Module Scope
+3. Function Scope
+4. Block Scope
+5. Lexical Scope
 
-Variables defined outside any function, block, or module scope have everywhere in the application. when a module system is enabled it's harder to make global variables,but one can still do it. By defining a variable in HTML, outside any function, a global variable can be created.
+## Global Scope
+Variables defined outside any function, block, or module scope are accessible everywhere in the application. When a module system is enabled, it's harder to make global variables, but it can still be done. By defining a variable in HTML, outside any function, a global variable can be created.
 
-## Module Scope :-
+## Module Scope
+Before modules, a variable declared outside any function was a global variable. In modules, a variable declared outside any function is hidden and not available to other modules unless it is explicitly exported.
 
-Before modules, a variable declared outside any function was a global variable. In modules, a variable declared outside any function is hidden and not available to other modules unless it is explicity exported..
+## Block Scope
+Block scope is defined with curly braces, separated by `{` and `}`. Variables declared with `let` and `const` can have block scope. They can only be accessed in the block in which they are defined.
 
-## Block Scope :-
+## Function Scope
+Function scope means that parameters and variables defined in a function are visible everywhere within the function but are not visible outside of the function.
 
-Block scope is defined with curly braces. it is separated by { and }. Variables declared with let and const can have block scope. They can only be accessed in the block in which they are defined.
-
-## Function Scope :-
-
-Function scope means that parameters and variables defined in a function are visible everywhere within the function, but are not visible outside of the function.
-
-## Lexical Scope :-
-
-Lexical scope is tha ability of the inner function to access the outer scope in which is defined.
+## Lexical Scope
+Lexical scope is the ability of the inner function to access the outer scope in which it is defined.
 
 ## For More Information Click Below :-
 

@@ -1,5 +1,5 @@
-     // Built-In Objects
-  // We should use new
+// Built-In Objects
+// We should use new
 // Object()
 // Array()
 // function()
@@ -7,7 +7,7 @@
 // RegExp()
 // Error()
 
-  // don't use new;
+// don't use new;
 // String()
 // Number()
 // Boolean()

@@ -21,5 +21,5 @@ console.log(typeof f) // symbol
 let g = null
 console.log(typeof g) // object
 
-let h = [1,2,3];
+let h = [1, 2, 3];
 console.log(typeof h) // object

@@ -17,7 +17,7 @@
 // function
 // class
 
-    // for example
+// for example
 
 let a;
 console.log(typeof a) // undefined
@@ -40,5 +40,5 @@ console.log(typeof f) // symbol
 let g = null;
 console.log(typeof g) // object
 
-let h = [1,2,3,4];
+let h = [1, 2, 3, 4];
 console.log(typeof h) // object

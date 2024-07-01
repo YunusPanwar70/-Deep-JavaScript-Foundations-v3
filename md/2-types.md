@@ -1,30 +1,38 @@
 > # Types
+There are two categories of data types :
 
-There are two categories of data types -
-    1. Primitive Data Types.
-    2. Non Primitive Data Types.
+1. Primitive Data Types.
+2. Non-Primitive Data Types.
 
-## Primitive Data Types :- Immutable
+## Primitive Data Types : Immutable
+Primitive data types do not have any methods or properties.
 
-A Primitive data types dont have any methods or properties
+#### Values in these data types cannot be changed :
 
-#### We cant change values in these data types
+- BigInt : Yeh future mein aane wala primitive type hai jo bade integers ko handle karne ke liye use hoga.
+- Boolean : Refers only to two values - true and false.
+- Number : Refers to all numerical values.
+- Null : The type itself is null, and it is a fundamental primitive data type in JavaScript.
+- String : Defined within double quotes or single quotes.
+- Symbol : Used to define keys of objects.
+- Undefined : It has only one value, which is undefined. It means the variable is not defined.
 
-* Bigint
-* Boolean
-* Number
-* Null
-* String
-* Symbol
-* Undefined
+## Non-Primitive Data Types : Mutable
+#### Values in these data types can be changed :
 
-## Non Primitive Data Types :- Mutable.
-#### We can change values in these data types.
+- Array : Arrays are also objects, but they have unique behavior such as numeric indexing and a length property.
 
-* Array
-* Functions
-* Object
+```Javascript
+let num = [1,2,3];
+console.log(num); // Output : [1,2,3];
 
-## For More Information Click Below :-
+num[0]='one';
+console.log(num); // Output : ['one',2,3];
+```
+
+- Functions : In JavaScript, functions are treated as objects' subtypes. They come with specific behaviors.
+- Object : Objects have multiple subtypes, but they are not primitive types. Objects have distinct behaviors and characteristics.
+
+## For More Information Click Below  :-
 
 [Types](../js/2-Types/)
