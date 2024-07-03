@@ -7,11 +7,10 @@
 let num = 40;
 
 num++; // This is called a postfix increment. It returns the current value (40), then increments num.
-console.log(num); // 41
+console.log(num); // Output: 41
 
 ++num; // This is called a prefix increment. It increments num first, then returns the new value.
-console.log(num); // 42
-
+console.log(num); // Output: 42
 ```
 
 _Whenever We increment a num using __postfixed position__ it will be return the value first, after that he will be increment the num_.

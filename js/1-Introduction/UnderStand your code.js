@@ -7,3 +7,11 @@ function plusPlus(orig_x) {
 let x = '5';
 plusPlus(x) // 5
 console.log(plusPlus(x)); // 6 
+
+// In SHort Trick
+function increment(x) {
+    let oldValue = Number(x);
+    x = oldValue + 1;
+    return oldValue;
+}
+console.log(increment(1));

@@ -13,3 +13,8 @@ console.log(num2); // Output: '51'
 
 num2++; // Postfix increment: Coerces the string '51' into a number and then increments it
 console.log(num2); // Output: 52
+
+
+let num3 = '5';
+num3 - 2;
+console.log(num3);

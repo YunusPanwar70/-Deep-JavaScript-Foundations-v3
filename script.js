@@ -120,3 +120,9 @@
 //     console.log(x); // Output: 10
 //     console.log(y); // ReferenceError: y is not defined
 // }
+
+// Ek boolean value
+let isJavaScriptFun = true;
+
+// Boolean value ka output
+console.log(typeof isJavaScriptFun); // true
