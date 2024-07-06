@@ -20,7 +20,6 @@ const num = '20';
 console.log(50 + num); // 5020
 
 console.log(50 - num)  // 30
-
 ```
 
 In first line Number is converted into string;

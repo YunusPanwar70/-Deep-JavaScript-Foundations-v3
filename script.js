@@ -19,7 +19,7 @@
 // console.log(typeof undefined); varibale ki value mitan ek liye
 // console.log(NaN === NaN); // har 1 NaN apne aap me 1 unique value h && NaN number hone ke baad bhi object h
 
-// console.log(isNaN(NaN)); // false 0 hota hai to isNaN cursion perform kar ke false karega q ki yeh number ko dalse karta hai.
+// console.log(isNaN(NaN)); // false 0 hota hai to isNaN cursion perform kar ke false karega q ki yeh number ko false karta hai.
 
 // let a = -0;
 // console.log(a.toString()); // 0 ish liye string conversion me 0 ya -0  "0" banta hai q ki yeh javaScript ka behviour h
@@ -28,7 +28,7 @@
 
 // console.log(0 === -0); // methametical  hi same value h ish liye true deta h    
 
-// console.log(Object.is(NaN, NaN));  // object is pure equalit check ke liye banaya gya h jo strick equality se bhi high 
+// console.log(Object.is(NaN, NaN));  // object is pure equalit check ke liye banaya gya h jo strick equality se bhi high hai
 
 // Kab new Keyword Use Karna Hai
 // Yeh objects new keyword ke saath use kiye jate hain jab aapko unke fundamental type ka object banana hota hai. In objects ko new ke saath use karna zaroori hai: 
@@ -55,7 +55,7 @@
 // ToPrimitive ke liye valueOf() aur toString() methods use hote hain.
 // Agar primitive result nahi milta, to algorithm recursively call hota hai.
 
-// Falsy value are 6 type : "", 0, null, NaN, false, undefined
+// Falsy value are 6 type : "", 0, null, NaN, false, undefined,all document
 
 
 // 1. Boxing
@@ -122,7 +122,129 @@
 // }
 
 // Ek boolean value
-let isJavaScriptFun = true;
+// let isJavaScriptFun = true;
 
 // Boolean value ka output
-console.log(typeof isJavaScriptFun); // true
+// console.log(typeof isJavaScriptFun); // true
+
+
+
+// get 1st value then incremnet 
+// Postfix
+// let a = 0;
+// a++; // 0 short trick
+// a = a + 1  Long trick
+// console.log(a); // 1
+
+
+// prefix => 1st increment then return value 
+// let b = 3;
+// ++b; // 4
+// console.log(++b);
+
+// increment => ++
+// decrement => --
+
+// let num = '5';
+// num = num + 1   Long trick
+// num += 1 // 51
+// console.log(num);
+
+// post Decrement =. get 1st value then decrement
+// let a = 3;
+// a--; // 3 
+// console.log(a);
+
+// pre Decrement => 1st decrement then return value 
+
+// let b = 5;
+// --b; // 4
+// console.log(b); // 4
+
+// let a = 0;
+// a++ // 0
+// console.log(++a);
+
+// 1st get value then (++) convert string to number then return value
+// let a = '5';
+// ++a; // 6 => number
+// console.log(a); // 6 
+
+// coersion => one data change to another data type // jabrdasti change 
+// condition => only want number
+// 1 => implicit => automaticaly  
+// 2 => expilcit => inbuilt method
+
+
+// implicit
+// let a = 'hello';
+// a += 30
+// a = a + 30
+// console.log(a);
+
+// explicty
+
+// let a = 19;
+// let b = toString(a);
+// console.log(typeof b);
+
+// let a = [1, 2, 3];
+// let b = Array.isArray(a)
+// console.log(b);
+
+// let a = {
+//     one: 1,
+//     two: 2
+// }
+// console.log(a.one = null);
+// let b = a = one = null
+// console.log(b);
+
+
+// let a = 1;
+// let b = 1;
+// let c = a === b;
+// console.log(c);
+
+// let a = 10n;
+// console.log(typeof a);
+
+// let a = [1, 2, 3, 4];
+// a[2] = 'Hello';
+// console.log(a);
+
+// function myFunction() {
+//     return "Hello from a function!";
+// }
+// console.log(myFunction());
+
+
+// let a = 'hello';
+// let b = a.toUpperCase(a)
+// console.log(b);
+
+// const a = Object(false);
+// a == false; // true
+// a === false; // false
+// a.valueOf() == false; // true
+// a.valueOf() === false; // true
+
+
+// let obj = {
+//     a: 1,
+//     b: 2
+// };
+// obj.a = null;
+// console.log(obj);
+
+// console.log(undefined === null);
+
+
+// console.log(Object.is(0, -0)); //  jyada strik check
+// console.log(Object.is(NaN, NaN));
+
+// console.log(isNaN(NaN));
+
+// console.log(isNaN(NaN, null));
+            
+console.log(Array.isArray([]));
