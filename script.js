@@ -177,7 +177,7 @@
 
 
 // implicit
-// let a = 'hello';
+// let a = 1;
 // a += 30
 // a = a + 30
 // console.log(a);
@@ -210,7 +210,7 @@
 // console.log(typeof a);
 
 // let a = [1, 2, 3, 4];
-// a[2] = 'Hello';
+// a[2] = 1;
 // console.log(a);
 
 // function myFunction() {
@@ -219,7 +219,7 @@
 // console.log(myFunction());
 
 
-// let a = 'hello';
+// let a = 1;
 // let b = a.toUpperCase(a)
 // console.log(b);
 
@@ -246,5 +246,129 @@
 // console.log(isNaN(NaN));
 
 // console.log(isNaN(NaN, null));
-            
-console.log(Array.isArray([]));
+
+// console.log(Array.isArray([]));
+
+// console.log(1 > 2 > 3);
+
+// function parent(parentVarable) {
+//     parentVarable = 'World';
+//     function child(two) {
+//         return parentVarable + ' ' + two
+//     }
+//     return child
+// }
+// const result = parent('hello world');
+// console.log(result('guys'));
+
+
+// let obj = {
+//     a: 1,
+//     b: 'hey'
+// }
+
+// obj.a = null;
+// obj.b = undefined;
+// console.log(obj.a);
+// console.log(obj.b);
+
+// const a = undefined;
+// console.log(a);
+
+// console.log(typeof (null - null))
+
+// let a = "2"
+// b=1
+// console.log(a-b)
+
+// function f(x, y) {
+//     return x + y
+// }
+// console.log(f());
+// // console.log(typeof f())
+
+// let a;
+// let b;
+// console.log(a + b);
+
+// console.log(Object.is(false == 0));
+
+// let a = {
+//     a: 1
+// }
+// let b = {
+//     a: 1
+// }
+// let c = {
+//     a: 1
+// }
+// console.log(a + b + c);
+
+// function fn(x, y) {
+//     return x + y
+// };
+// console.log(fn());
+
+// let a = null ** 2;
+// let b = undefined ** 2;
+// console.log(a);
+
+
+// let person = {
+// name: "Alen",
+// age: 20,
+// info: function () {
+// console.log(`${this.name} is  ${this.age} years old`);
+// },
+// };
+// person.info();
+
+
+// function myfunction() {
+//     console.log(this);
+// }
+
+// const obj = {
+//     somekey: 1,
+//     function: myfunction,
+// };
+// obj.function();
+
+
+
+// function myFunction(param1, param2) {
+//     console.log(this);
+// }
+
+// const obj = {
+//     someKey: 1,
+// };
+
+// const param1 = 1, param2 = 2;
+// // myFunction.call(obj, param1, param2); // {someKey: 1}
+// myFunction.apply(obj, [param1, param2]); // {someKey: 1}
+
+
+// const person = {
+//     fullName: function () {
+//         return this.firstName + " " + this.lastName;
+//     }
+// }
+
+// const person1 = {
+//     firstName: "John",
+//     lastName: "Doe"
+// }
+
+// const person2 = {
+//     firstName: "Jane",
+//     lastName: "Smith"
+// }
+
+// // `apply` method ka use karke person1 aur person2 ka context `person.fullName` function ko pass kiya gaya hai.
+// console.log(person.fullName.apply(person1)); // Output: John Doe
+// console.log(person.fullName.apply(person2)); // Output: Jane Smith
+
+let a="2"
+let b="hellow"
+console.log(a/b)

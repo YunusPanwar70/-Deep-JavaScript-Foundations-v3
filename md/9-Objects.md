@@ -80,7 +80,7 @@ obj.myfunction();
 // {somekey: 1, myfunction: f}. i.e obj
 ```
 
-## **Explicit Binding**
+## **Explicit Binding (call/apply/bind)**
 
 In this method, you can force a function to use a certain object as its this. Explicit Binding can be applied using call(), apply|(), and bind().
 

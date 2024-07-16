@@ -30,7 +30,6 @@ num2 = num2 + 1; // '51'
 num2 += 1; // '51' (This is a shorthand trick)
 num2++; // 51 (coerces the string into a number and then increments it)
 console.log(num2); // 52
-
 ```
 
 ## For More Information Click Below:-
