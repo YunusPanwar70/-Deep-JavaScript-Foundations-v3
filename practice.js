@@ -143,22 +143,22 @@
 
 // ask(); // prints "Kyle"
 
-class Workshop {
-    constructor() {
-        this.currentEnrollment = 0;
-        this.studentRecords = [];
-    }
+// class Workshop {
+//     constructor() {
+//         this.currentEnrollment = 0;
+//         this.studentRecords = [];
+//     }
 
-    addStudent(student) {
-        this.studentRecords.push(student);
-        this.currentEnrollment++;
-    }
+//     addStudent(student) {
+//         this.studentRecords.push(student);
+//         this.currentEnrollment++;
+//     }
 
-    getEnrollment() {
-        return this.currentEnrollment;
-    }
-}
+//     getEnrollment() {
+//         return this.currentEnrollment;
+//     }
+// }
 
-let deepJS = new Workshop();
-deepJS.addStudent({ id: 1, name: "John Doe" });
-console.log(deepJS.getEnrollment()); // Output: 1
+// let deepJS = new Workshop();
+// deepJS.addStudent({ id: 1, name: "John Doe" });
+// console.log(deepJS.getEnrollment()); // Output: 1

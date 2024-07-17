@@ -28,8 +28,8 @@
 
 // console.log(0 === -0); // methametical  hi same value h ish liye true deta h    
 
-// console.log(Object.is(NaN, NaN));  // object is pure equalit check ke liye banaya gya h jo strick equality se bhi high hai
-
+console.log(Object.is(NaN, NaN));  // object is pure equalit check ke liye banaya gya h jo strick equality se bhi high hai
+console.log(Number(NaN))
 // Kab new Keyword Use Karna Hai
 // Yeh objects new keyword ke saath use kiye jate hain jab aapko unke fundamental type ka object banana hota hai. In objects ko new ke saath use karna zaroori hai: 
 
@@ -369,6 +369,6 @@
 // console.log(person.fullName.apply(person1)); // Output: John Doe
 // console.log(person.fullName.apply(person2)); // Output: Jane Smith
 
-let a="2"
-let b="hellow"
-console.log(a/b)
+// let a="2"
+// let b="hellow"
+// console.log(a/b)

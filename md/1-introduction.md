@@ -32,6 +32,24 @@ num2++; // 51 (coerces the string into a number and then increments it)
 console.log(num2); // 52
 ```
 
+_Whenever We increment a num using __Post-decrement position__ it will be return the value first, after that he will be increment the num_.
+
+``` javascript
+let x = 5;
+let y = x--; // y is 5, and then x becomes 4
+
+console.log(x); // 4
+console.log(y); // 5
+```
+
+_Whenever we will use __Pre-decrement__ position for increment a num. it will increment num first, after that he will be return value_.
+``` javascript
+let x = 5;
+let y = --x; // x becomes 4, and y is also 4
+
+console.log(x); // 4
+console.log(y); // 4
+```
 ## For More Information Click Below:-
 
 [Introductions](../js/1-Introduction/)
