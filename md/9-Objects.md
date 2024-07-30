@@ -1,4 +1,6 @@
-> # Objects
+# Objects
+
+>JavaScript me yeh basic building blocks hote hain jo data collections aur complex entities store karte hain.
 
 ### Core Pillars of JavaScript:
 

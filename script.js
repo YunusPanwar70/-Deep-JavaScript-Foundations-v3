@@ -28,8 +28,8 @@
 
 // console.log(0 === -0); // methametical  hi same value h ish liye true deta h    
 
-console.log(Object.is(NaN, NaN));  // object is pure equalit check ke liye banaya gya h jo strick equality se bhi high hai
-console.log(Number(NaN))
+// console.log(Object.is(NaN, NaN));  // object is pure equalit check ke liye banaya gya h jo strick equality se bhi high hai
+// console.log(Number(NaN))
 // Kab new Keyword Use Karna Hai
 // Yeh objects new keyword ke saath use kiye jate hain jab aapko unke fundamental type ka object banana hota hai. In objects ko new ke saath use karna zaroori hai: 
 
@@ -372,3 +372,62 @@ console.log(Number(NaN))
 // let a="2"
 // let b="hellow"
 // console.log(a/b)
+
+
+
+// let a = 'hello';
+// a = a + 1;
+// a++; // 10
+// console.log(a + '51');
+
+// let a = '51';
+// let b = 6;
+// console.log(a - b);
+
+// let a = "hello"
+// let b = 10
+// console.log(a + b);
+
+// let a = "gulam"
+// console.log(a + " rasul");
+
+// let a = 10;
+// console.log(++a);
+
+// function value(x) {
+//     let y = '5';
+//     if (x === y) {
+//         return true
+//     } else {
+//         false
+//     }
+// }
+// console.log(value(5));
+
+
+// let a = 10n;
+// console.log(typeof a);
+
+
+// a = 5; //undefined
+// console.log(a);
+
+
+// let person = {
+//     name: "Alen",
+//     age: 20,
+//     info: function () {
+//         console.log(this.name + " is " + this.age + " years old");
+//     },
+// };
+// person.info();
+// console.log(person.info());
+
+function parent() {
+    let a = 10;
+    return function child(num) {
+        return a + num
+    }
+}
+const result = parent()(2);
+console.log(result);
